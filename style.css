@@ -1,5 +1,6 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0%;
     
 }
 
@@ -24,6 +25,7 @@ body{
 #normal{
     color: rgb(53, 51, 51);
     font-size: 30px;
+    
 }
 
 #narmal2{
@@ -33,23 +35,81 @@ body{
 
 #shortdes1{
     color: rgb(65, 64, 64);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family:cursive;
 }
 
 #orderlink{
     text-decoration: none;
     background-image: linear-gradient(skyblue, blue);
     padding: 8px 20px;
-    border-radius: 10px;
+    border-radius: 40px;
     color: honeydew;
 }
 
+#kidimg{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#dwn{
+    padding-top: 65px;
+}
+
+
 .firstpage{
-    padding-left: 30px;
+    padding-left: 40px;
     width: 100%;
     
 }
 
 .dis{
     display: flex;
+    margin-bottom: 7%;
+}
+
+.dis2{
+    background-image: url(images/shapes/Frame57.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;  
+    background-position: top;
+    margin-bottom: 20%;
+    display: flex;
+    
+    
+}
+
+#mamz{
+    color: rgb(54, 149, 187);
+    font-weight: bold;
+
+}
+
+#shortdes2{
+    font-family: cursive;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 170px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#about{
+        padding-left: 255px;
+        padding-top: 50px;
+}
+#orderlink2{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, blue);
+    padding: 8px 20px;
+    border-radius: 40px;
+    color: honeydew;
+    margin-left: 250px;
+}
+
+#chefimg{
+    padding-left: 150px;
+    padding-bottom: 80px;
+    padding-top: 30px;
 }
